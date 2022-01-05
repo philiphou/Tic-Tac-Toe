@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif
+}
+section{
+    text-align: center;
+}
+h1 {
+
+    font-size:50px;
+    color: blueviolet
+    }
+
+.mainBoard {
+    margin-top: 20px;;
+    margin-left: 42%;
+    width: 200px ;
+    height:200px;
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    
+
+
+}
+.cell{
+  
+    width:50px;
+    height:50px;
+    border: 2px solid white;
+    background-color: turquoise;
+    cursor:pointer;
+    font-family: Arial;
+    font-size: 30px;
+}
+
+.restart{
+    background-color: rgb(17, 199, 47);
+    font-size: 20px;
+    margin-top: 30px;
+    border: 2px solid red;
+    width: 100px;
+    font-family:serif;
+
+
+}
+.restart:hover{
+    background-color: sandybrown;
+
+}
